@@ -4,21 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b9f43e1-6a69-4670-9fc5-44b363f2efe6" name="Changes" comment="Implement image upload.&#10;Add initial migration for the database.">
-      <change afterPath="$PROJECT_DIR$/awsomegallery/accounts/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awsomegallery/accounts/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awsomegallery/accounts/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awsomegallery/accounts/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awsomegallery/accounts/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awsomegallery/accounts/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awsomegallery/accounts/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awsomegallery/accounts/views.py" afterDir="false" />
+    <list default="true" id="3b9f43e1-6a69-4670-9fc5-44b363f2efe6" name="Changes" comment="Implement login and logout.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awsomegallery/awsomegallery/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/awsomegallery/awsomegallery/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awsomegallery/awsomegallery/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/awsomegallery/awsomegallery/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awsomegallery/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/awsomegallery/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/awsomegallery/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/awsomegallery/accounts/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/awsomegallery/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/awsomegallery/accounts/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/awsomegallery/templates/gallery/overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/awsomegallery/templates/gallery/overview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awsomegallery/templates/gallery/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/awsomegallery/templates/gallery/upload.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1752559639187</updated>
-      <workItem from="1752559640211" duration="8862000" />
+      <workItem from="1752559640211" duration="10532000" />
     </task>
     <task id="LOCAL-00001" summary="Django Project with app">
       <option name="closed" value="true" />
@@ -125,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752664246840</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Implement login and logout.">
+      <option name="closed" value="true" />
+      <created>1752666267533</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1752666267533</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +133,7 @@
     <MESSAGE value="Django Project with app" />
     <MESSAGE value="Add image model.&#10;Add overview page and upload page dummy. &#10;Register image model with the Django admin pages." />
     <MESSAGE value="Implement image upload.&#10;Add initial migration for the database." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement image upload.&#10;Add initial migration for the database." />
+    <MESSAGE value="Implement login and logout." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement login and logout." />
   </component>
 </project>
