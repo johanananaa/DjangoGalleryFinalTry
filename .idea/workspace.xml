@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b9f43e1-6a69-4670-9fc5-44b363f2efe6" name="Changes" comment="Django Project with app">
-      <change afterPath="$PROJECT_DIR$/awsomegallery/templates/gallery/overview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awsomegallery/templates/gallery/upload.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DjangoGalleryFinalTry.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DjangoGalleryFinalTry.iml" afterDir="false" />
+    <list default="true" id="3b9f43e1-6a69-4670-9fc5-44b363f2efe6" name="Changes" comment="Add image model.&#10;Add overview page and upload page dummy. &#10;Register image model with the Django admin pages.">
+      <change afterPath="$PROJECT_DIR$/awsomegallery/templates/registration/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/awsomegallery/templates/registration/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awsomegallery/awsomegallery/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/awsomegallery/awsomegallery/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awsomegallery/awsomegallery/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/awsomegallery/awsomegallery/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awsomegallery/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/awsomegallery/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awsomegallery/gallery/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/awsomegallery/gallery/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awsomegallery/gallery/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/awsomegallery/gallery/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/awsomegallery/gallery/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/awsomegallery/gallery/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/awsomegallery/templates/gallery/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/awsomegallery/templates/gallery/upload.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1752559639187</updated>
-      <workItem from="1752559640211" duration="3721000" />
+      <workItem from="1752559640211" duration="6875000" />
     </task>
     <task id="LOCAL-00001" summary="Django Project with app">
       <option name="closed" value="true" />
@@ -90,7 +85,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752560285225</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add image model.&#10;Add overview page and upload page dummy. &#10;Register image model with the Django admin pages.">
+      <option name="closed" value="true" />
+      <created>1752598746947</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1752598746947</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +101,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Django Project with app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Django Project with app" />
+    <MESSAGE value="Add image model.&#10;Add overview page and upload page dummy. &#10;Register image model with the Django admin pages." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add image model.&#10;Add overview page and upload page dummy. &#10;Register image model with the Django admin pages." />
   </component>
 </project>
