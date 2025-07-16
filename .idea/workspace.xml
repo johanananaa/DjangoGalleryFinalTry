@@ -4,11 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b9f43e1-6a69-4670-9fc5-44b363f2efe6" name="Changes" comment="Add image model.&#10;Add overview page and upload page dummy. &#10;Register image model with the Django admin pages.">
-      <change afterPath="$PROJECT_DIR$/awsomegallery/templates/registration/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awsomegallery/templates/registration/register.html" afterDir="false" />
+    <list default="true" id="3b9f43e1-6a69-4670-9fc5-44b363f2efe6" name="Changes" comment="Implement image upload.&#10;Add initial migration for the database.">
+      <change afterPath="$PROJECT_DIR$/awsomegallery/accounts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/awsomegallery/accounts/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/awsomegallery/accounts/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/awsomegallery/accounts/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/awsomegallery/accounts/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/awsomegallery/accounts/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/awsomegallery/accounts/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/awsomegallery/accounts/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awsomegallery/gallery/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/awsomegallery/gallery/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/awsomegallery/awsomegallery/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/awsomegallery/awsomegallery/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/awsomegallery/awsomegallery/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/awsomegallery/awsomegallery/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/awsomegallery/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/awsomegallery/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/awsomegallery/templates/gallery/overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/awsomegallery/templates/gallery/overview.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/awsomegallery/templates/gallery/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/awsomegallery/templates/gallery/upload.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,12 +29,26 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "johanananaa"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/johanananaa/DjangoGalleryFinalTry.git",
+    "accountId": "2dd61e15-9e06-48d6-916d-a206d53e4540"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 1
 }]]></component>
@@ -57,6 +80,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/awsomegallery/Media/images" />
       <recent name="$PROJECT_DIR$/awsomegallery/Media" />
     </key>
   </component>
@@ -75,7 +99,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1752559639187</updated>
-      <workItem from="1752559640211" duration="6875000" />
+      <workItem from="1752559640211" duration="8862000" />
     </task>
     <task id="LOCAL-00001" summary="Django Project with app">
       <option name="closed" value="true" />
@@ -93,7 +117,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752598746947</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implement image upload.&#10;Add initial migration for the database.">
+      <option name="closed" value="true" />
+      <created>1752664246840</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1752664246840</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +134,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Django Project with app" />
     <MESSAGE value="Add image model.&#10;Add overview page and upload page dummy. &#10;Register image model with the Django admin pages." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add image model.&#10;Add overview page and upload page dummy. &#10;Register image model with the Django admin pages." />
+    <MESSAGE value="Implement image upload.&#10;Add initial migration for the database." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement image upload.&#10;Add initial migration for the database." />
   </component>
 </project>

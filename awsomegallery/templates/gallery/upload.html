@@ -8,7 +8,7 @@
 
 <form method="post" enctype="multipart/form-data">
     {% csrf_token %}
-    {{ form.as_p }}
+    {{ form.as_p }} //as_p means as paragreph, as table also possible
     <p> <input type="submit"> </p>
 
 </form>
